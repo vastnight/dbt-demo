@@ -1,7 +1,7 @@
 jaffle_shop:
   target: dev
   outputs:
-    local:
+    dev:
       type: duckdb
-      threads: 1
-      database: db.duckdb
+      # threads: 1
+      path: ./db/db.duckdb

@@ -1,5 +1,5 @@
 # dbt-demo
-- basic dbt demo/test; targets is a local duckdb db.
+- basic dbt demo/test; target to write to is a locally created duckdb db.
 
 ## Basic Config
 - install uv

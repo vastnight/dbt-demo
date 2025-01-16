@@ -3,5 +3,22 @@ name = "dbt-demo"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = []
+
+[tool.poetry]
+name = "dbt-demo"
+version = "0.1.0"
+description = ""
+authors = ["vastnight"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+dbt-core = "^1.9.1"
+dbt-duckdb = "^1.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
