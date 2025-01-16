@@ -3,5 +3,4 @@ jaffle_shop:
   outputs:
     dev:
       type: duckdb
-      # threads: 1
       path: ./db/db.duckdb
