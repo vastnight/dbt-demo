@@ -18,6 +18,8 @@ python = ">=3.10"
 dbt-core = "^1.9.1"
 dbt-duckdb = "^1.9.1"
 pandas = "^2.2.3"
+dbdemos = "0.5.1"
+setuptools = "^75.8.0"
 
 
 [build-system]
