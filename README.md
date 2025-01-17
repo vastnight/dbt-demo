@@ -5,7 +5,7 @@
 - install poetry & run poetry install --no-root
 
 
-## 00_jaffle_shop directory
+## 00_basic_setup directory
 - generated via **dbt init jaffle_shop** 
 - for purposes of this demo, make sure to create a profile yaml file as shown in jaffle_shop/profiles.yml
 - to change default dbt profiles directory to where your profile has been created, export the environment variable **DBT_PROFILES_DIR="path\to\custom\profiles"**

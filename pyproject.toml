@@ -17,6 +17,7 @@ readme = "README.md"
 python = ">=3.10"
 dbt-core = "^1.9.1"
 dbt-duckdb = "^1.9.1"
+pandas = "^2.2.3"
 
 
 [build-system]
